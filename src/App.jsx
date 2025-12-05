@@ -25,4 +25,3 @@ function App() {
                  <button onClick={handleClear}>完了したタスクの削除</button> 
                  <div>残りのタスク:{todos.filter((todo) => !todo.completed).length}</div> </> ); }
                   export default App;
-import React from "react";
